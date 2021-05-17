@@ -1,12 +1,6 @@
-# Telercise-UI
+# [Telercise-frontend](https://telercise-frontend.herokuapp.com/)
 
 ## Commands
 
-### yarn start
+### yarn dev
 Starts a development server on localhost with port 3000.
-
-### yarn run build
-Prepares the application for production in the ./build folder.
-
-### yarn serve build 
-Serves the build folder on localhost with port 5000.

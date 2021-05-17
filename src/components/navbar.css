@@ -1,0 +1,30 @@
+.navbarContainer {
+    min-height: 70px;
+    max-height: 70px;
+    background-color: var(--primary-color);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbarNavContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbarNavItem {
+    width: calc(100vw / 3);
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    line-height: 70px;
+}
+
+.navbarNavItemIcon {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

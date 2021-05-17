@@ -1,0 +1,6 @@
+.settingsListContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    min-width: calc(100vw - 20px);
+}

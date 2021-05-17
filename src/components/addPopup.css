@@ -1,0 +1,12 @@
+.popupPlaylistName {
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.popupPlaylistName:hover {
+    background-color: lightgrey;
+    border-radius: 2px;
+}

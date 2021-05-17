@@ -1,0 +1,15 @@
+.dropdownContainer {
+    margin: auto;
+    margin-right: 10px;
+    display: flex;
+}
+
+.dropdownSelect {
+    padding: 5px;
+    font-size: 16px;
+    height: 35px;
+}
+
+.dropdownOption {
+    
+}

@@ -44,20 +44,20 @@
     text-align: center;
 }
 
-.popupRadioButton {
-    border: none;
-    flex: 1;
-    padding: 5px;
-    margin: auto;
-    max-height: 30px;
-    font-size: 18px;
-    display:block
-}
-
 .popupTitle {
     height: 50px;
     line-height: 50px;
     font-size: 22px;
     font-weight: 550;
     margin: auto;
+}
+
+.popupRadioButtonContainer {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.popupRadioButtonContainer input {
+    margin: 5px;
 }

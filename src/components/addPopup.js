@@ -13,7 +13,6 @@ function AddPopup(props) {
             .then(res => res.json())
             .then(response => {
                 setPlaylists(response)
-                console.log(response);
             })
     }
 

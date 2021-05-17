@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './tutorialListItem.css';
 import { RiAddFill } from 'react-icons/ri';
+import {MdDelete} from 'react-icons/md';
 import AddPopup from './addPopup';
 
 function TutorialListItem(props) {
@@ -9,6 +10,11 @@ function TutorialListItem(props) {
     const handleAddClick = (e) => {
         e.stopPropagation();
         togglePopup();
+    }
+
+    const handleDeleteClick = (e) => {
+        e.stopPropagation();
+        props.deleteFunction(props.tutorial.id);
     }
 
     function togglePopup() {
@@ -30,6 +36,12 @@ function TutorialListItem(props) {
             {props.add &&
                 <div className="tutorialListItemAdd" onClick={handleAddClick}>
                     <RiAddFill className="tutorialListItemAddIcon" />
+                </div>
+            }
+
+            {props.delete &&
+                <div className="tutorialListItemAdd" onClick={handleDeleteClick}>
+                    <MdDelete className="tutorialListItemAddIcon" />
                 </div>
             }
 

@@ -44,7 +44,6 @@ function Playlists() {
             .then(res => res.json())
             .then(response => {
                 setPlaylists(response)
-                console.log(response);
             })
     }
 
@@ -55,7 +54,7 @@ function Playlists() {
     return (
         <div className="">
             <Header title="Playlists" add={true} addFunction={togglePopup} />
-            <PlaylistList playlists={playlists} />
+            <PlaylistList playlists={playlists} refresh={getPlaylists}/>
             {popup &&
                 <PlaylistPopup add={addPlaylist} toggle={togglePopup}/>
             }

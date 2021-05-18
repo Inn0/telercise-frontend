@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import './tutorialListItem.css';
 import { RiAddFill } from 'react-icons/ri';
 import {MdDelete} from 'react-icons/md';

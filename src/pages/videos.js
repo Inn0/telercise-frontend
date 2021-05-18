@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './videos.css';
 import Header from '../components/header'
 import CategorySelection from '../components/categorySelection'

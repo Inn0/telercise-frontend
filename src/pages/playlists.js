@@ -25,6 +25,9 @@ function Playlists() {
                 .then(res => {
                     if (res.status === 226) {
                         alert('Name ' + newPlaylist.title + ' is already taken!');
+                    } else if(res.status === 409) {
+                        alert('You can\'t have more than 10 playlists!');
+                        togglePopup()
                     } else if (res.status === 200) {
                         togglePopup()
                         getPlaylists()

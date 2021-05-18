@@ -1,14 +1,9 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './navbar.css';
 import { AiFillPlaySquare, AiOutlinePlaySquare } from 'react-icons/ai';
 import { BsCollectionPlay, BsCollectionPlayFill } from 'react-icons/bs';
 import { IoSettings, IoSettingsOutline } from 'react-icons/io5';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Navbar(props) {
     return (

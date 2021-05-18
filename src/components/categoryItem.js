@@ -1,6 +1,6 @@
 import React from 'react';
 import './categoryItem.css';
-import { FaRunning, FaChild, FaDumbbell, FaSpa } from 'react-icons/fa'
+import { FaChild, FaDumbbell, FaSpa } from 'react-icons/fa'
 import {GiBodyBalance} from 'react-icons/gi'
 
 function CategoryItem(props) {

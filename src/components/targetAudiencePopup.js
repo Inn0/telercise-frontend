@@ -24,8 +24,8 @@ function TargetAudiencePopup(props) {
                     <label>
                         <input
                             type="radio"
-                            value="adults"
-                            checked={value === "adults"}
+                            value="adult"
+                            checked={value === "adult"}
                             onChange={handleChange}
                         />
                         Adults

@@ -3,6 +3,7 @@ import './playlist.css'
 import { useParams, useHistory } from 'react-router-dom';
 import TutorialListItem from '../components/tutorialListItem';
 import Header from '../components/header';
+import Divider from '../components/divider';
 
 function Playlist(props) {
     const history = useHistory()
@@ -62,6 +63,7 @@ function Playlist(props) {
                     })
                 }
             </div>
+            <Divider height={"75px"}/>
         </div>
     );
 }

@@ -13,8 +13,8 @@ function PlaylistListItem(props) {
 
     return (
         <div className="playlistListItemContainer">
-            <Link to={"/playlist/" + props.playlist.id}>
-                <p>{props.playlist.title}</p>
+            <Link to={"/playlist/" + props.playlist.id} className="playlistListItemTitleContainer">
+                <p className="playlistListItemTitle">{props.playlist.title}</p>
             </Link>
             <MdDelete className="playlistListItemIcon" onClick={handleClick} />
         </div>

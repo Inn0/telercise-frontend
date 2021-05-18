@@ -10,11 +10,14 @@
     justify-content: space-between;
 }
 
-.playlistListItemContainer p {
+.playlistListItemTitleContainer {
+    width: 100%;
+}
+
+.playlistListItemTitle {
     font-size: 22px;
     color: black;
     font-weight: 550;
-    width: calc(90vw - 30px);
 }
 
 .playlistListItemIcon {
